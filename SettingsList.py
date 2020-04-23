@@ -2512,6 +2512,7 @@ setting_infos = [
             'balanced':    'Balanced',
             'strong':      'Strong',
             'very_strong': 'Very Strong',
+            'bingo':       'Bingo',
             'tournament':  'Tournament',
         },
         gui_tooltip    = '''\
@@ -2522,6 +2523,10 @@ setting_infos = [
             'Strong': More useful hints.
 
             'Very Strong': Many powerful hints.
+            
+            'Bingo': Custom Bingo Distrubution. 
+            Only contains, Always, Sometimes and 
+            Random Hints.
 
             'Tournament': Fixed number of hints 
             for each type, contains duplicates,
