@@ -517,6 +517,21 @@ hint_dist_sets = {
         'random':   (0.0, 0),
         'junk':     (0.0, 0),
     },
+    'bingo': {
+        'trial':    (0.0, 0),
+        'always':   (0.0, 2),
+        'woth':     (0.0, 0),
+        'barren':   (0.0, 0),
+        'item':     (0.0, 0),
+        'song':     (0.0, 0),
+        'minigame': (0.0, 0),
+        'ow':       (0.0, 0),
+        'dungeon':  (0.0, 0),
+        'entrance': (0.0, 0),
+        'sometimes':(5.0, 2),
+        'random':   (1.0, 2),
+        'junk':     (0.0, 0),
+    },
     'tournament': OrderedDict({
         # (number of hints, count per hint)
         'trial':     (0.0, 2),
