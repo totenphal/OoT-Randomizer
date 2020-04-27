@@ -226,7 +226,7 @@
     "logic_earliest_adult_trade": "claim_check",
     "logic_latest_adult_trade": "claim_check"
   },
-  "Bingo": {
+ "Bingo": {
     "create_spoiler": true,
     "world_count": 1,
     "randomize_settings": false,
@@ -238,7 +238,7 @@
     "bridge": "open",
     "bridge_tokens": 1,
     "trials_random": false,
-    "trials": 0,
+    "trials": 6,
     "starting_age": "child",
     "entrance_shuffle": "off",
     "triforce_hunt": false,
@@ -266,6 +266,9 @@
     "logic_no_night_tokens_without_suns_song": false,
     "logic_lens": "chest-wasteland",
     "disabled_locations": [
+        "40 Gold Skulltula Reward",
+        "50 Gold Skulltula Reward",
+        "Frog Ocarina Game",
         "Deku Theater Mask of Truth"
     ],
     "allowed_tricks": [
