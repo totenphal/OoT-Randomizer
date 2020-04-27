@@ -68,6 +68,10 @@ conditional_always = {
     '50 Gold Skulltula Reward':  lambda world: world.bridge != 'tokens' or world.bridge_tokens < 50,
     '40 Gold Skulltula Reward':  lambda world: world.bridge != 'tokens' or world.bridge_tokens < 40,
     '30 Gold Skulltula Reward':  lambda world: world.bridge != 'tokens' or world.bridge_tokens < 30,
+    'Barinade Heart':            lambda world: world.hint_dist == 'bingo',
+    'Bongo Bongo Heart':         lambda world: world.hint_dist == 'bingo',
+    'Twinrova Heart':            lambda world: world.hint_dist == 'bingo',
+    'Zelda':                     lambda world: world.hint_dist == 'bingo',
 }
 
 
@@ -197,7 +201,7 @@ hintTable = {
     'Sheik at Colossus':                                        ("a hero ventures beyond #the Wasteland# to learn", None, ['song', 'sometimes']),
 
     'Child Fishing':                                            ("#fishing in youth# bestows", None, 'minigame'),
-    'Adult Fishing':                                            ("#fishing in maturity# bestows", None, 'minigame'),
+    'Adult Fishing':                                            ("#fishing in maturity# bestows", None, ['minigame', 'sometimes']),
     'Child Shooting Gallery':                                   ("#shooting in youth# grants", None, 'minigame'),
     'Adult Shooting Gallery':                                   ("#shooting in maturity# grants", None, ['minigame', 'sometimes']),
     'Bombchu Bowling Bomb Bag':                                 ("the #first explosive prize# is", None, 'minigame'),
@@ -231,6 +235,11 @@ hintTable = {
     'Goron City Pot Freestanding PoH':                          ("spinning #Goron pottery# contains", None, ['overworld', 'sometimes']),
     'King Zora Thawed':                                         ("unfreezing #King Zora# grants", None, ['overworld', 'sometimes']),
     'DMC Deku Scrub Bombs':                                     ("in the Crater a #scrub# sells", None, ['overworld', 'sometimes']),
+    'Zelda':                                                    ("meeting Zelda in the #Temple of Time# grants", None, ['overworld', 'sometimes']),
+    'Barinade Heart':                                           ("the Heart of #Barinade# reveals", None, ['overworld', 'sometimes']),
+    'Morpha Heart':                                             ("the Heart of #Morpha# reveals", None, ['overworld', 'sometimes']),
+    'Bongo Bongo Heart':                                        ("the Heart of #Bongo Bongo# reveals", None, ['overworld', 'sometimes']),
+    'Twinrova Heart':                                           ("the Heart of #Twinrova# reveals", None, ['overworld', 'sometimes']),
 
     'Deku Tree MQ After Spinning Log Chest':                    ("within #a tree#, a temporal stone contains", None, ['dungeon', 'sometimes']),
     'GS Deku Tree MQ Basement Ceiling':                         ("within #a tree#, a spider on the ceiling holds", None, ['dungeon', 'sometimes']),
