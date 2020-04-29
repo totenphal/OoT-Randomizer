@@ -235,7 +235,7 @@ hintTable = {
     'Goron City Pot Freestanding PoH':                          ("spinning #Goron pottery# contains", None, ['overworld', 'sometimes']),
     'King Zora Thawed':                                         ("unfreezing #King Zora# grants", None, ['overworld', 'sometimes']),
     'DMC Deku Scrub Bombs':                                     ("in the Crater a #scrub# sells", None, ['overworld', 'sometimes']),
-    'Zelda':                                                    ("meeting Zelda in the #Temple of Time# grants", None, ['overworld', 'sometimes']),
+    'Zelda':                                                    ("meeting #Zelda# in the Temple of Time grants", None, ['overworld', 'sometimes']),
     'Barinade Heart':                                           ("the Heart of #Barinade# reveals", None, ['overworld', 'sometimes']),
     'Morpha Heart':                                             ("the Heart of #Morpha# reveals", None, ['overworld', 'sometimes']),
     'Bongo Bongo Heart':                                        ("the Heart of #Bongo Bongo# reveals", None, ['overworld', 'sometimes']),
