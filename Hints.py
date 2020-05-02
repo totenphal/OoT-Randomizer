@@ -519,7 +519,7 @@ hint_dist_sets = {
     },
     'bingo': OrderedDict({
         'trial':    (0.0, 2),
-        'always':   (0.0, 2),
+        'always':   (0.0, 3),
         'woth':     (3.0, 2),
         'barren':   (3.0, 2),
         'entrance': (0.0, 2),
