@@ -235,7 +235,6 @@ hintTable = {
     'King Zora Thawed':                                         ("unfreezing #King Zora# grants", None, ['overworld', 'sometimes']),
     'DMC Deku Scrub Bombs':                                     ("in the Crater a #scrub# sells", None, ['overworld', 'sometimes']),
     'Zelda':                                                    ("meeting #Zelda# in the Temple of Time grants", None, ['overworld', 'sometimes']),
-    'Frogs in the Rain':                                        ("the stormy reward from the #Frogs of Zora's River# is", None, ['overworld', 'sometimes']),
     'Crater Fairy Reward':                                      ("visiting a #Great Fairy# in the Crater grants", None, ['overworld', 'sometimes']),
     'Ganons Castle Fairy Reward':                               ("visiting a #Great Fairy# outside of the floating castle grants", None, ['overworld', 'sometimes']),
 
@@ -268,7 +267,7 @@ hintTable = {
     'Shadow Temple Hidden Floormaster Chest':                   (["shadows in an #invisible maze# guard", "after a free #boat ride# comes"], None, ['dungeon', 'sometimes']),
     'Shadow Temple MQ Bomb Flower Chest':                       (["shadows in an #invisible maze# guard", "after a free #boat ride# comes"], None, ['dungeon', 'sometimes']),
     'Bongo Bongo Heart':                                        ("the Heart of #Bongo Bongo# reveals", None, ['dungeon', 'sometimes']),
-    'Ganons Castle Shadow Trial Second Chest':                  ("mastering Shadows in a #Trial# reveal", None, ['dungeon', 'sometimes']),
+    'Ganons Castle Shadow Trial Second Chest':                  ("deep in a #shadowy Trial# awaits", None, ['dungeon', 'sometimes']),
 	
     'Desert Colossus -> Desert Colossus Grotto':                ("lifting a rock in #the desert# reveals", None, 'entrance'),
     'Gerudo Valley -> Gerudo Valley Octorok Grotto':            ("on #a ledge in the valley#, a silver rock hides", None, 'entrance'),
