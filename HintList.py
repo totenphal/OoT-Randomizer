@@ -68,8 +68,6 @@ conditional_always = {
     '50 Gold Skulltula Reward':  lambda world: world.bridge != 'tokens' or world.bridge_tokens < 50,
     '40 Gold Skulltula Reward':  lambda world: world.bridge != 'tokens' or world.bridge_tokens < 40,
     '30 Gold Skulltula Reward':  lambda world: world.bridge != 'tokens' or world.bridge_tokens < 30,
-    'Bongo Bongo Heart':         lambda world: world.hint_dist == 'bingo',
-    'Twinrova Heart':            lambda world: world.hint_dist == 'bingo',
     'Zelda':                     lambda world: world.hint_dist == 'bingo',
 }
 
